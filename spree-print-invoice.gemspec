@@ -6,6 +6,7 @@ Gem::Specification.new do |s|
   s.version     = version
   s.summary     = 'Print invoices from a spree order'
   s.required_ruby_version = '>= 1.8.7'
+  s.author      = 'Nebulab'
 
   s.files        = Dir['README.markdown', 'lib/**/*', 'app/**/*', 'config/*']
   s.require_path = 'lib'
